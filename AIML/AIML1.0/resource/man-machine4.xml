@@ -1,0 +1,1551 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+	<pattern>人 机 交 互 * 输 入 模 式</pattern>
+	<template><srai>人 机 交 互 的 模 式</srai></template>
+</category>
+
+<category>
+    <pattern>* 人 机 交 互 * 输 入 模 式</pattern>
+	<template><srai>人 机 交 互 的 模 式</srai></template>
+</category>
+
+<category>
+	<pattern>人 机 交 互 * 输 入 模 式 *</pattern>
+	<template><srai>人 机 交 互 的 模 式</srai></template>
+</category>
+
+<category>
+    <pattern>* 人 机 交 互 * 输 入 模 式 *</pattern>
+	<template><srai>人 机 交 互 的 模 式</srai></template>
+</category>
+
+<category>
+    <pattern>人 机 交 互 的 模 式</pattern>
+    <template>人机交互有三种输入模式，分别是请求模式，采样模式，事件模式。</template>
+</category>
+
+<category>
+	<pattern>* 请 求 模 式</pattern>
+	<template><srai>请 求 模 式 概 念</srai></template>
+</category>
+
+<category>
+	<pattern>请 求 模 式 *</pattern>
+	<template><srai>请 求 模 式 概 念</srai></template>
+</category>
+
+<category>
+	<pattern>* 请 求 模 式 *</pattern>
+	<template><srai>请 求 模 式 概 念</srai></template>
+</category>
+
+<category>
+	<pattern>请 求 模 式 概 念</pattern>
+	<template>请求模式下，输入设备的启动是在应用程序中设置的。应用程序执行过程中要输入数据时，暂停程序的执行，直到从输入设备接受到请求的输入数据后，才继续执行程序。</template>
+</category>
+
+<category>
+	<pattern>* 采 样 模 式</pattern>
+	<template><srai>采 样 模 式 概 念</srai></template>
+</category>
+
+<category>
+	<pattern>采 样 模 式 *</pattern>
+	<template><srai>采 样 模 式 概 念</srai></template>
+</category>
+
+<category>
+	<pattern>* 采 样 模 式 *</pattern>
+	<template><srai>采 样 模 式 概 念</srai></template>
+</category>
+
+<category>
+	<pattern>采 样 模 式 概 念</pattern>
+	<template>输入设备和应用程序独立地工作。输入设备连续不断地把信息输入进来，信息的输入和应用程序中的输入命令无关。应用程序在处理其它数据的同时，输入设备也在工作，新的输入数据替换以前的输入数据。当应用程序遇到取样命令时，读取当前保存的输入设备数据。</template>
+</category>
+
+<category>
+	<pattern>采 样 模 式 * 优 缺 点 *</pattern>
+	<template>采样模式的优点是这种模式对连续的信息流输入比较方便，也可同时处理多个输入设备的输入信息。
+缺点是当应用程序的处理时间较长时，可能会失掉某些输入信息。</template>
+</category>
+
+<category>
+	<pattern>采 样 模 式 * 优 点 *</pattern>
+	<template>采样模式的优点是这种模式对连续的信息流输入比较方便，也可同时处理多个输入设备的输入信息。</template>
+</category>
+
+<category>
+	<pattern>采 样 模 式 * 缺 点 *</pattern>
+	<template>采样模式的缺点是当应用程序的处理时间较长时，可能会失掉某些输入信息。</template>
+</category>
+
+<category>
+	<pattern>* 采 样 模 式 * 优 缺 点</pattern>
+	<template>采样模式的优点是这种模式对连续的信息流输入比较方便，也可同时处理多个输入设备的输入信息。
+缺点是当应用程序的处理时间较长时，可能会失掉某些输入信息。</template>
+</category>
+
+<category>
+	<pattern>* 采 样 模 式 * 优 点</pattern>
+	<template>采样模式的优点是这种模式对连续的信息流输入比较方便，也可同时处理多个输入设备的输入信息。</template>
+</category>
+
+<category>
+	<pattern>* 采 样 模 式 * 缺 点</pattern>
+	<template>采样模式的缺点是当应用程序的处理时间较长时，可能会失掉某些输入信息。</template>
+</category>
+
+<category>
+	<pattern>* 采 样 模 式 * 优 缺 点 *</pattern>
+	<template>采样模式的优点是这种模式对连续的信息流输入比较方便，也可同时处理多个输入设备的输入信息。
+缺点是当应用程序的处理时间较长时，可能会失掉某些输入信息。</template>
+</category>
+
+<category>
+	<pattern>* 采 样 模 式 * 优 点 *</pattern>
+	<template>采样模式的优点是这种模式对连续的信息流输入比较方便，也可同时处理多个输入设备的输入信息。</template>
+</category>
+
+<category>
+	<pattern>* 采 样 模 式 * 缺 点 *</pattern>
+	<template>采样模式的缺点是当应用程序的处理时间较长时，可能会失掉某些输入信息。</template>
+</category>
+
+<category>
+	<pattern>* 事 件 模 式</pattern>
+	<template><srai>事 件 模 式 概 念</srai></template>
+</category>
+
+<category>
+	<pattern>事 件 模 式 *</pattern>
+	<template><srai>事 件 模 式 概 念</srai></template>
+</category>
+
+<category>
+	<pattern>* 事 件 模 式 *</pattern>
+	<template><srai>事 件 模 式 概 念</srai></template>
+</category>
+
+<category>
+	<pattern>事 件 模 式 概 念</pattern>
+	<template>输入设备和程序并行工作。输入设备把数据保存到一个输入队列，也称为事件队列，所有的输入数据都保存起来，不会遗失。应用程序随时可以检查这个事件队列，处理队列中的事件，或删除队列中的事件。</template>
+</category>
+
+<category>
+	<pattern>基 本 交 互 技 术 * </pattern>
+	<template>基本交互技术有：定位，笔划，定值，选择，字符串</template>
+</category>
+
+<category>
+	<pattern> * 简 述 * 基 本 交 互 技 术 * </pattern>
+	<template>1、定位就是确定平面或空间的一个点的坐标，是交互中最基本的输入技术之一。分为直接定位和间接定位。
+直接定位就是用定位设备直接指定某个对象的位置，是一种精确定位方式。
+间接定位就是通过定位设备的运动控制屏幕上的映射光标进行定位，是一种非精确定位方式。其允许指定的点位于一个坐标范围内，一般用鼠标等指点设备配合光标来实现。
+2、笔划输入用于输入一组顺序的坐标点。相当于多次调用定位输入，输入的一组点常用于显示折线或作为曲线的控制点。
+3、定值（或数值）输入用于设置物体旋转角度、缩放比例因子等。
+4、选择是在某个选择集中选出一个元素，通过注视、指点或接触一个对象，使对象成为后续行为的焦点，是操作对象时不可缺少的一部分。
+</template>
+</category>
+
+<category>
+	<pattern>* 定 位</pattern>
+	<template>定位就是确定平面或空间的一个点的坐标，是交互中最基本的输入技术之一。分为直接定位和间接定位。
+直接定位就是用定位设备直接指定某个对象的位置，是一种精确定位方式。
+间接定位就是通过定位设备的运动控制屏幕上的映射光标进行定位，是一种非精确定位方式。其允许指定的点位于一个坐标范围内，一般用鼠标等指点设备配合光标来实现。</template>
+</category>
+
+<category>
+	<pattern>* 笔 划</pattern>
+	<template>笔划输入用于输入一组顺序的坐标点。相当于多次调用定位输入，输入的一组点常用于显示折线或作为曲线的控制点。</template>
+</category>
+
+<category>
+	<pattern>* 定 值 </pattern>
+	<template>定值（或数值）输入用于设置物体旋转角度、缩放比例因子等。</template>
+</category>
+
+<category>
+	<pattern>* 选 择</pattern>
+	<template>选择是在某个选择集中选出一个元素，通过注视、指点或接触一个对象，使对象成为后续行为的焦点，是操作对象时不可缺少的一部分。</template>
+</category>
+
+<category>
+    <pattern>* WIMP 界 面</pattern>
+    <template>WIMP界面由窗口(Windows)、图标(Icons)、菜单(Menus)、指点设备(Pointing Device)四位一体，形成桌面(Desktop)。</template>
+</category>
+
+<category>
+    <pattern>* 几 何 约 束</pattern>
+    <template>几何约束可用于对图形的方向、对齐方式等进行规定和校准。他是对定位的约束，或网格吸附</template>
+</category>
+
+<category>
+    <pattern>* 方 向 约 束</pattern>
+    <template>例如要绘的垂直或水平方向的线，当给定的起点和终点连线和水平线的交角小于45°时，便可绘出一条水平线，否则就绘垂直线。绘制印刷线路板、管网图或地籍图时非常有用。</template>
+</category>
+
+<category>
+    <pattern>* 引 力 场</pattern>
+    <template>引力场也可以看作是一种定位约束，通过在特定图素（如直线段）周围假想有一个区域，当光标中心落在这个区域内时，就自动地被直线上最近的一个点所代替，就好像一个质点进入了直线周围的引力场，被吸引到这条直线上去一样。引力场的大小要适中，太小不易进入引力区，太大了线和线的引力区相交，光标在进入引力区相交部分时可能会被吸引到不希望选的线段上去，增大误接的概率。</template>
+</category>
+
+<category>
+    <pattern>* 拖 把</pattern>
+    <template>要把一个对象移动到一个新的位置时，如不是简单地用光标指定新位置的一个点，而是当光标移动时拖动着被移动的对象，这样会使用户感到更直观，并可使对象放置的位置更恰当。</template>
+</category>
+
+<category>
+    <pattern>* 图 形 模 式</pattern>
+    <template>在图形模式下，当将图形由一个位置拖到新的位置时，实际上是在移动的位置上按特定的象素操作模式（如异或方式）进行了图形的重新绘制，这样被拖动的图形不会破坏扫过的轨迹上的图形。</template>
+</category>
+
+<category>
+    <pattern>* 图 像 模 式</pattern>
+    <template>在图像模式下，当将一个图形由一个位置拖到一个新的位置时，实际上是进行了图像的整体移动，即首先将新位置上按拖动图像大小范围将屏幕图像保存，然后将拖动的图像移动到新位置，当拖动图像离开该位置而移动到下一个新位置时，再恢复该位置上保存的屏幕图像。</template>
+</category>
+
+<category>
+    <pattern>* 橡 皮 筋 技 术</pattern>
+    <template>被拖动对象的形状和位置随着光标位置的不同而变化。它是不断地进行画图－擦除－画图的过程。</template>
+</category>
+
+<category>
+    <pattern>* 操 作 柄 技 术</pattern>
+    <template>可以用来对图形对象进行缩放、旋转、错切等几何变换。先选择要处理的图形对象，该图形对象的周围会出现操作柄，移动或旋转操作柄就可以实现相应的变换。</template>
+</category>
+
+<category>
+    <pattern>* 三 维 交 互 技 术</pattern>
+    <template>三维交互技术采用六自由度输入设备。
+所谓六自由度，指沿三维空间X、Y、Z轴平移和绕X、Y、Z轴旋转，而现在流行的用于桌面型图形界面的交互设备，如鼠标、轨迹球、触摸屏等只有两个自由度(沿平面X、Y轴平移)。
+窗口、菜单、图符和传统的二维光标在三维交互环境中会破坏空间感，用户难以区分屏幕上光标选择到对象的深度值和其他显示对象的深度值，使交互过程非常不自然。
+</template>
+</category>
+
+<category>
+    <pattern>* 三 维 交 互 技 术 * 问 题 *</pattern>
+    <template>三维交互技术采用六自由度输入设备。
+所谓六自由度，指沿三维空间X、Y、Z轴平移和绕X、Y、Z轴旋转，而现在流行的用于桌面型图形界面的交互设备，如鼠标、轨迹球、触摸屏等只有两个自由度(沿平面X、Y轴平移)。
+窗口、菜单、图符和传统的二维光标在三维交互环境中会破坏空间感，用户难以区分屏幕上光标选择到对象的深度值和其他显示对象的深度值，使交互过程非常不自然。
+</template>
+</category>
+
+<category>
+    <pattern>* 三 维 交 互 技 术 * 问 题</pattern>
+    <template>三维交互技术采用六自由度输入设备。
+所谓六自由度，指沿三维空间X、Y、Z轴平移和绕X、Y、Z轴旋转，而现在流行的用于桌面型图形界面的交互设备，如鼠标、轨迹球、触摸屏等只有两个自由度(沿平面X、Y轴平移)。
+窗口、菜单、图符和传统的二维光标在三维交互环境中会破坏空间感，用户难以区分屏幕上光标选择到对象的深度值和其他显示对象的深度值，使交互过程非常不自然。
+</template>
+</category>
+
+<category>
+    <pattern>* 三 维 交 互 * 直 接 操 作</pattern>
+    <template>三维光标必须有深度感，即必须考虑光标与观察者距离，离观察者近的时候较大，离观察者远的时候较小。为保持三维用户界面的空间感，光标在遇到物体时不能进入到或穿过物体内部。为了增加额外的深度线索，辅助三维对象的选择，可以采用半透明三维光标。三维光标可以是人手的三维模型。</template>
+</category>
+
+<category>
+    <pattern>* 三 维 交 互 界 面 * 工 具</pattern>
+    <template>三维交互界面中的一些小工具有：三维空间中漂浮的菜单、用于拾取物体的手的三维图标、平移和旋转指示器等。</template>
+</category>
+
+<category>
+    <pattern>三 维 Widget * 原 则</pattern>
+    <template>三维Widget的几何形状应能表示其用途。例如:一个用来扭曲物体的Widget，最好本身就是一个扭曲的物体。
+    适当选择Widget控制的自由度－由于三维空间有六个自由度，有时会使三维交互操作变得过于复杂，因此在用户使用某种Widget时，可以固定或者自动计算某些自由度的值；
+根据三维用户界面的用途确定Widget的功能。如，用于艺术和娱乐的三维用户界面的Widget，只要能够完成使画面看起来像的操作就可以了。而用于工业设计和制造的用户界面，则必须保证交互操作参数的精确性。
+</template>
+</category>
+
+<category>
+    <pattern>* 三 视 图 输 入</pattern>
+    <template>用二维输入设备在一定程度上实现三维的输入。
+如果输入一个三维点，只要在两个视图上把点的对应位置指定后便唯一确定了三维空间中的一个点；把直线段上两端点在三视图上输入后便可决定三维空间的一条直线；把一个面上的各顶点在三视图上输入后，也就唯一确定了三维空间中的一个面；如把一多面体上各面均用上述方法输入，也就在三维空间中输入了一个多面体。
+</template>
+</category>
+
+<category>
+    <pattern>* 语 音 识 别</pattern>
+    <template>计算机通过识别和理解过程把语音信号转变为相应的文本文件或命令的技术，其所涉及的领域包括：信号处理、模式识别、概率论和信息论、发声机理和听觉机理、人工智能等。</template>
+</category>
+
+<category>
+    <pattern>* 语 音 识 别 * 分 为 *</pattern>
+    <template><srai>语 音 识 别 组 成</srai></template>
+</category>
+
+<category>
+    <pattern>* 语 音 识 别 * 组 成</pattern>
+    <template><srai>语 音 识 别 组 成</srai></template>
+</category>
+
+<category>
+    <pattern>* 语 音 识 别 * 组 成 *</pattern>
+    <template><srai>语 音 识 别 组 成</srai></template>
+</category>
+
+<category>
+    <pattern>* 语 音 识 别 * 种</pattern>
+    <template><srai>语 音 识 别 组 成</srai></template>
+</category>
+
+<category>
+    <pattern>* 语 音 识 别 * 种 *</pattern>
+    <template><srai>语 音 识 别 组 成</srai></template>
+</category>
+
+<category>
+    <pattern>语 音 识 别 组 成</pattern>
+    <template>语音识别可分为语音特征提取，声学模型与模式匹配，语言模型与语义理解三种。</template>
+</category>
+
+<category>
+    <pattern>* 语 音 特 征 提 取</pattern>
+    <template>输入的模拟语音信号首先要进行预处理，包括预滤波、采样和量化、加窗、端点检测、预加重等。基于语音帧的特征提取方法：将语音信号分为有重叠的若干帧，对每一帧提取语音特征。</template>
+</category>
+
+<category>
+    <pattern>* 声 学 模 型</pattern>
+    <template>声学模型对应于语音到音节概率的计算。在识别时将输入的语音特征同声学模型进行匹配与比较，得到最佳识别结果。</template>
+</category>
+
+<category>
+    <pattern>* 模 式 匹 配</pattern>
+    <template>目前采用的最广泛的建模技术是隐马尔科夫模型HMM建模和上下文相关建模。</template>
+</category>
+
+<category>
+    <pattern>* 隐 马 尔 科 夫 模 型 HMM 建 模</pattern>
+    <template>HMM刻画语音信号需作出两个假设：一是内部状态的转移只与上一状态有关，另一是输出值只与当前状态（或当前的状态转移）有关。语音识别中使用HMM通常是用从左向右单向、带自环、带跨越的拓扑结构来对识别基元建模，一个音素就是一个三至五状态的HMM，一个词就是构成词的多个音素的HMM串行起来构成的HMM，而连续语音识别的整个模型就是词和静音组合起来的HMM。</template>
+</category>
+
+<category>
+    <pattern>* 上 下 文 相 关 建 模 方 法</pattern>
+    <template>建模时考虑了协同发音的影响，英语的上下文相关建模通常以音素为基元。</template>
+</category>
+
+<category>
+    <pattern>* 协 同 发 音</pattern>
+    <template>指一个音受前后相邻音的影响而发生变化，从发声机理上看就是人的发声器官在一个音转向另一个音时只能逐渐变化，从而使得后一个音的频谱与其他条件下的频谱产生差异。</template>
+</category>
+
+<category>
+    <pattern>* 语 言 模 型</pattern>
+    <template>语言模型计算音节到字的概率，分为规则模型、统计模型。</template>
+</category>
+
+<category>
+	<pattern>* 定 位 *</pattern>
+	<template>定位就是确定平面或空间的一个点的坐标，是交互中最基本的输入技术之一。分为直接定位和间接定位。
+直接定位就是用定位设备直接指定某个对象的位置，是一种精确定位方式。
+间接定位就是通过定位设备的运动控制屏幕上的映射光标进行定位，是一种非精确定位方式。其允许指定的点位于一个坐标范围内，一般用鼠标等指点设备配合光标来实现。</template>
+</category>
+
+<category>
+	<pattern>* 笔 划 *</pattern>
+	<template>笔划输入用于输入一组顺序的坐标点。相当于多次调用定位输入，输入的一组点常用于显示折线或作为曲线的控制点。</template>
+</category>
+
+<category>
+	<pattern>* 定 值 *</pattern>
+	<template>定值（或数值）输入用于设置物体旋转角度、缩放比例因子等。</template>
+</category>
+
+<category>
+	<pattern>* 选 择 *</pattern>
+	<template>选择是在某个选择集中选出一个元素，通过注视、指点或接触一个对象，使对象成为后续行为的焦点，是操作对象时不可缺少的一部分。</template>
+</category>
+
+<category>
+    <pattern>* WIMP 界 面 *</pattern>
+    <template>WIMP界面由窗口(Windows)、图标(Icons)、菜单(Menus)、指点设备(Pointing Device)四位一体，形成桌面(Desktop)。</template>
+</category>
+
+<category>
+    <pattern>* 几 何 约 束 *</pattern>
+    <template>几何约束可用于对图形的方向、对齐方式等进行规定和校准。他是对定位的约束，或网格吸附</template>
+</category>
+
+<category>
+    <pattern>* 方 向 约 束 *</pattern>
+    <template>例如要绘的垂直或水平方向的线，当给定的起点和终点连线和水平线的交角小于45°时，便可绘出一条水平线，否则就绘垂直线。绘制印刷线路板、管网图或地籍图时非常有用。</template>
+</category>
+
+<category>
+    <pattern>* 引 力 场 *</pattern>
+    <template>引力场也可以看作是一种定位约束，通过在特定图素（如直线段）周围假想有一个区域，当光标中心落在这个区域内时，就自动地被直线上最近的一个点所代替，就好像一个质点进入了直线周围的引力场，被吸引到这条直线上去一样。引力场的大小要适中，太小不易进入引力区，太大了线和线的引力区相交，光标在进入引力区相交部分时可能会被吸引到不希望选的线段上去，增大误接的概率。</template>
+</category>
+
+<category>
+    <pattern>* 拖 把 *</pattern>
+    <template>要把一个对象移动到一个新的位置时，如不是简单地用光标指定新位置的一个点，而是当光标移动时拖动着被移动的对象，这样会使用户感到更直观，并可使对象放置的位置更恰当。</template>
+</category>
+
+<category>
+    <pattern>* 图 形 模 式 *</pattern>
+    <template>在图形模式下，当将图形由一个位置拖到新的位置时，实际上是在移动的位置上按特定的象素操作模式（如异或方式）进行了图形的重新绘制，这样被拖动的图形不会破坏扫过的轨迹上的图形。</template>
+</category>
+
+<category>
+    <pattern>* 图 像 模 式 *</pattern>
+    <template>在图像模式下，当将一个图形由一个位置拖到一个新的位置时，实际上是进行了图像的整体移动，即首先将新位置上按拖动图像大小范围将屏幕图像保存，然后将拖动的图像移动到新位置，当拖动图像离开该位置而移动到下一个新位置时，再恢复该位置上保存的屏幕图像。</template>
+</category>
+
+<category>
+    <pattern>* 橡 皮 筋 技 术 *</pattern>
+    <template>被拖动对象的形状和位置随着光标位置的不同而变化。它是不断地进行画图－擦除－画图的过程。</template>
+</category>
+
+<category>
+    <pattern>* 操 作 柄 技 术 *</pattern>
+    <template>可以用来对图形对象进行缩放、旋转、错切等几何变换。先选择要处理的图形对象，该图形对象的周围会出现操作柄，移动或旋转操作柄就可以实现相应的变换。</template>
+</category>
+
+<category>
+    <pattern>* 三 维 交 互 技 术 *</pattern>
+    <template>三维交互技术采用六自由度输入设备。
+所谓六自由度，指沿三维空间X、Y、Z轴平移和绕X、Y、Z轴旋转，而现在流行的用于桌面型图形界面的交互设备，如鼠标、轨迹球、触摸屏等只有两个自由度(沿平面X、Y轴平移)。
+窗口、菜单、图符和传统的二维光标在三维交互环境中会破坏空间感，用户难以区分屏幕上光标选择到对象的深度值和其他显示对象的深度值，使交互过程非常不自然。
+</template>
+</category>
+
+<category>
+    <pattern>* 三 维 交 互 * 直 接 操 作 *</pattern>
+    <template>三维光标必须有深度感，即必须考虑光标与观察者距离，离观察者近的时候较大，离观察者远的时候较小。为保持三维用户界面的空间感，光标在遇到物体时不能进入到或穿过物体内部。为了增加额外的深度线索，辅助三维对象的选择，可以采用半透明三维光标。三维光标可以是人手的三维模型。</template>
+</category>
+
+<category>
+    <pattern>* 三 维 交 互 界 面 * 工 具 *</pattern>
+    <template>三维交互界面中的一些小工具有：三维空间中漂浮的菜单、用于拾取物体的手的三维图标、平移和旋转指示器等。</template>
+</category>
+
+<category>
+    <pattern>三 维 Widget * 原 则 *</pattern>
+    <template>三维Widget的几何形状应能表示其用途。例如:一个用来扭曲物体的Widget，最好本身就是一个扭曲的物体。
+    适当选择Widget控制的自由度－由于三维空间有六个自由度，有时会使三维交互操作变得过于复杂，因此在用户使用某种Widget时，可以固定或者自动计算某些自由度的值；
+根据三维用户界面的用途确定Widget的功能。如，用于艺术和娱乐的三维用户界面的Widget，只要能够完成使画面看起来像的操作就可以了。而用于工业设计和制造的用户界面，则必须保证交互操作参数的精确性。
+</template>
+</category>
+
+<category>
+    <pattern>* 三 视 图 输 入 *</pattern>
+    <template>用二维输入设备在一定程度上实现三维的输入。
+如果输入一个三维点，只要在两个视图上把点的对应位置指定后便唯一确定了三维空间中的一个点；把直线段上两端点在三视图上输入后便可决定三维空间的一条直线；把一个面上的各顶点在三视图上输入后，也就唯一确定了三维空间中的一个面；如把一多面体上各面均用上述方法输入，也就在三维空间中输入了一个多面体。
+</template>
+</category>
+
+<category>
+    <pattern>* 语 音 识 别 *</pattern>
+    <template>计算机通过识别和理解过程把语音信号转变为相应的文本文件或命令的技术，其所涉及的领域包括：信号处理、模式识别、概率论和信息论、发声机理和听觉机理、人工智能等。</template>
+</category>
+
+<category>
+    <pattern>* 语 音 特 征 提 取 *</pattern>
+    <template>输入的模拟语音信号首先要进行预处理，包括预滤波、采样和量化、加窗、端点检测、预加重等。基于语音帧的特征提取方法：将语音信号分为有重叠的若干帧，对每一帧提取语音特征。</template>
+</category>
+
+<category>
+    <pattern>* 声 学 模 型 *</pattern>
+    <template>声学模型对应于语音到音节概率的计算。在识别时将输入的语音特征同声学模型进行匹配与比较，得到最佳识别结果。</template>
+</category>
+
+<category>
+    <pattern>* 模 式 匹 配 *</pattern>
+    <template>目前采用的最广泛的建模技术是隐马尔科夫模型HMM建模和上下文相关建模。</template>
+</category>
+
+<category>
+    <pattern>* 隐 马 尔 科 夫 模 型 HMM 建 模 *</pattern>
+    <template>HMM刻画语音信号需作出两个假设：一是内部状态的转移只与上一状态有关，另一是输出值只与当前状态（或当前的状态转移）有关。语音识别中使用HMM通常是用从左向右单向、带自环、带跨越的拓扑结构来对识别基元建模，一个音素就是一个三至五状态的HMM，一个词就是构成词的多个音素的HMM串行起来构成的HMM，而连续语音识别的整个模型就是词和静音组合起来的HMM。</template>
+</category>
+
+<category>
+    <pattern>* 上 下 文 相 关 建 模 方 法 *</pattern>
+    <template>建模时考虑了协同发音的影响，英语的上下文相关建模通常以音素为基元。</template>
+</category>
+
+<category>
+    <pattern>* 协 同 发 音 *</pattern>
+    <template>指一个音受前后相邻音的影响而发生变化，从发声机理上看就是人的发声器官在一个音转向另一个音时只能逐渐变化，从而使得后一个音的频谱与其他条件下的频谱产生差异。</template>
+</category>
+
+<category>
+    <pattern>* 语 言 模 型 *</pattern>
+    <template>语言模型计算音节到字的概率，分为规则模型、统计模型。</template>
+</category>
+
+
+<category>
+	<pattern>定 位 *</pattern>
+	<template>定位就是确定平面或空间的一个点的坐标，是交互中最基本的输入技术之一。分为直接定位和间接定位。
+直接定位就是用定位设备直接指定某个对象的位置，是一种精确定位方式。
+间接定位就是通过定位设备的运动控制屏幕上的映射光标进行定位，是一种非精确定位方式。其允许指定的点位于一个坐标范围内，一般用鼠标等指点设备配合光标来实现。</template>
+</category>
+
+<category>
+	<pattern>笔 划 *</pattern>
+	<template>笔划输入用于输入一组顺序的坐标点。相当于多次调用定位输入，输入的一组点常用于显示折线或作为曲线的控制点。</template>
+</category>
+
+<category>
+	<pattern>定 值 *</pattern>
+	<template>定值（或数值）输入用于设置物体旋转角度、缩放比例因子等。</template>
+</category>
+
+<category>
+	<pattern>选 择 *</pattern>
+	<template>选择是在某个选择集中选出一个元素，通过注视、指点或接触一个对象，使对象成为后续行为的焦点，是操作对象时不可缺少的一部分。</template>
+</category>
+
+<category>
+    <pattern>WIMP 界 面 *</pattern>
+    <template>WIMP界面由窗口(Windows)、图标(Icons)、菜单(Menus)、指点设备(Pointing Device)四位一体，形成桌面(Desktop)。</template>
+</category>
+
+<category>
+    <pattern>几 何 约 束 *</pattern>
+    <template>几何约束可用于对图形的方向、对齐方式等进行规定和校准。他是对定位的约束，或网格吸附</template>
+</category>
+
+<category>
+    <pattern>方 向 约 束 *</pattern>
+    <template>例如要绘的垂直或水平方向的线，当给定的起点和终点连线和水平线的交角小于45°时，便可绘出一条水平线，否则就绘垂直线。绘制印刷线路板、管网图或地籍图时非常有用。</template>
+</category>
+
+<category>
+    <pattern>引 力 场 *</pattern>
+    <template>引力场也可以看作是一种定位约束，通过在特定图素（如直线段）周围假想有一个区域，当光标中心落在这个区域内时，就自动地被直线上最近的一个点所代替，就好像一个质点进入了直线周围的引力场，被吸引到这条直线上去一样。引力场的大小要适中，太小不易进入引力区，太大了线和线的引力区相交，光标在进入引力区相交部分时可能会被吸引到不希望选的线段上去，增大误接的概率。</template>
+</category>
+
+<category>
+    <pattern>拖 把 *</pattern>
+    <template>要把一个对象移动到一个新的位置时，如不是简单地用光标指定新位置的一个点，而是当光标移动时拖动着被移动的对象，这样会使用户感到更直观，并可使对象放置的位置更恰当。</template>
+</category>
+
+<category>
+    <pattern>图 形 模 式 *</pattern>
+    <template>在图形模式下，当将图形由一个位置拖到新的位置时，实际上是在移动的位置上按特定的象素操作模式（如异或方式）进行了图形的重新绘制，这样被拖动的图形不会破坏扫过的轨迹上的图形。</template>
+</category>
+
+<category>
+    <pattern>图 像 模 式 *</pattern>
+    <template>在图像模式下，当将一个图形由一个位置拖到一个新的位置时，实际上是进行了图像的整体移动，即首先将新位置上按拖动图像大小范围将屏幕图像保存，然后将拖动的图像移动到新位置，当拖动图像离开该位置而移动到下一个新位置时，再恢复该位置上保存的屏幕图像。</template>
+</category>
+
+<category>
+    <pattern>橡 皮 筋 技 术 *</pattern>
+    <template>被拖动对象的形状和位置随着光标位置的不同而变化。它是不断地进行画图－擦除－画图的过程。</template>
+</category>
+
+<category>
+    <pattern>操 作 柄 技 术 *</pattern>
+    <template>可以用来对图形对象进行缩放、旋转、错切等几何变换。先选择要处理的图形对象，该图形对象的周围会出现操作柄，移动或旋转操作柄就可以实现相应的变换。</template>
+</category>
+
+<category>
+    <pattern>三 维 交 互 技 术 *</pattern>
+    <template>三维交互技术采用六自由度输入设备。
+所谓六自由度，指沿三维空间X、Y、Z轴平移和绕X、Y、Z轴旋转，而现在流行的用于桌面型图形界面的交互设备，如鼠标、轨迹球、触摸屏等只有两个自由度(沿平面X、Y轴平移)。
+窗口、菜单、图符和传统的二维光标在三维交互环境中会破坏空间感，用户难以区分屏幕上光标选择到对象的深度值和其他显示对象的深度值，使交互过程非常不自然。
+</template>
+</category>
+
+<category>
+    <pattern>三 维 交 互 * 直 接 操 作 *</pattern>
+    <template>三维光标必须有深度感，即必须考虑光标与观察者距离，离观察者近的时候较大，离观察者远的时候较小。为保持三维用户界面的空间感，光标在遇到物体时不能进入到或穿过物体内部。为了增加额外的深度线索，辅助三维对象的选择，可以采用半透明三维光标。三维光标可以是人手的三维模型。</template>
+</category>
+
+<category>
+    <pattern>三 维 交 互 界 面 * 工 具 *</pattern>
+    <template>三维交互界面中的一些小工具有：三维空间中漂浮的菜单、用于拾取物体的手的三维图标、平移和旋转指示器等。</template>
+</category>
+
+<category>
+    <pattern>三 视 图 输 入 *</pattern>
+    <template>用二维输入设备在一定程度上实现三维的输入。
+如果输入一个三维点，只要在两个视图上把点的对应位置指定后便唯一确定了三维空间中的一个点；把直线段上两端点在三视图上输入后便可决定三维空间的一条直线；把一个面上的各顶点在三视图上输入后，也就唯一确定了三维空间中的一个面；如把一多面体上各面均用上述方法输入，也就在三维空间中输入了一个多面体。
+</template>
+</category>
+
+<category>
+    <pattern>语 音 识 别 *</pattern>
+    <template>计算机通过识别和理解过程把语音信号转变为相应的文本文件或命令的技术，其所涉及的领域包括：信号处理、模式识别、概率论和信息论、发声机理和听觉机理、人工智能等。</template>
+</category>
+
+<category>
+    <pattern>语 音 特 征 提 取 *</pattern>
+    <template>输入的模拟语音信号首先要进行预处理，包括预滤波、采样和量化、加窗、端点检测、预加重等。基于语音帧的特征提取方法：将语音信号分为有重叠的若干帧，对每一帧提取语音特征。</template>
+</category>
+
+<category>
+    <pattern>声 学 模 型 *</pattern>
+    <template>声学模型对应于语音到音节概率的计算。在识别时将输入的语音特征同声学模型进行匹配与比较，得到最佳识别结果。</template>
+</category>
+
+<category>
+    <pattern>模 式 匹 配 *</pattern>
+    <template>目前采用的最广泛的建模技术是隐马尔科夫模型HMM建模和上下文相关建模。</template>
+</category>
+
+<category>
+    <pattern>隐 马 尔 科 夫 模 型 HMM 建 模 *</pattern>
+    <template>HMM刻画语音信号需作出两个假设：一是内部状态的转移只与上一状态有关，另一是输出值只与当前状态（或当前的状态转移）有关。语音识别中使用HMM通常是用从左向右单向、带自环、带跨越的拓扑结构来对识别基元建模，一个音素就是一个三至五状态的HMM，一个词就是构成词的多个音素的HMM串行起来构成的HMM，而连续语音识别的整个模型就是词和静音组合起来的HMM。</template>
+</category>
+
+<category>
+    <pattern>上 下 文 相 关 建 模 方 法 *</pattern>
+    <template>建模时考虑了协同发音的影响，英语的上下文相关建模通常以音素为基元。</template>
+</category>
+
+<category>
+    <pattern>协 同 发 音 *</pattern>
+    <template>指一个音受前后相邻音的影响而发生变化，从发声机理上看就是人的发声器官在一个音转向另一个音时只能逐渐变化，从而使得后一个音的频谱与其他条件下的频谱产生差异。</template>
+</category>
+
+<category>
+    <pattern>语 言 模 型 *</pattern>
+    <template>语言模型计算音节到字的概率，分为规则模型、统计模型。</template>
+</category>
+
+<category>
+    <pattern>笔 式 用 户 界 面 *</pattern>
+    <template>笔式用户界面分为PIBG范式和WIMP范式。</template>
+</category>
+
+<category>
+    <pattern>* 笔 式 用 户 界 面 *</pattern>
+    <template>笔式用户界面分为PIBG范式和WIMP范式。</template>
+</category>
+
+<category>
+    <pattern>手 写 识 别 技 术 *</pattern>
+    <template>手写体识别的方法和识别率取决于对手写约束的层次，这些约束主要是手写的类型、用户的数量、词汇量的大小以及空间的布局。</template>
+</category>
+
+<category>
+    <pattern>* 手 写 识 别 技 术 *</pattern>
+    <template>手写体识别的方法和识别率取决于对手写约束的层次，这些约束主要是手写的类型、用户的数量、词汇量的大小以及空间的布局。</template>
+</category>
+
+<category>
+    <pattern>* 手 写 识 别 技 术</pattern>
+    <template>手写体识别的方法和识别率取决于对手写约束的层次，这些约束主要是手写的类型、用户的数量、词汇量的大小以及空间的布局。</template>
+</category>
+
+<category>
+    <pattern>手 写 识 别 技 术 * 分 为 *</pattern>
+    <template><srai>手 写 识 别 技 术 的 分 类</srai></template>
+</category>
+
+<category>
+    <pattern>手 写 识 别 技 术 分 为 *</pattern>
+    <template><srai>手 写 识 别 技 术 的 分 类</srai></template>
+</category>
+
+<category>
+    <pattern>* 手 写 识 别 技 术 * 分 为 *</pattern>
+    <template><srai>手 写 识 别 技 术 的 分 类</srai></template>
+</category>
+
+<category>
+    <pattern>* 手 写 识 别 技 术 分 为 *</pattern>
+    <template><srai>手 写 识 别 技 术 的 分 类</srai></template>
+</category>
+
+<category>
+    <pattern>手 写 识 别 技 术 * 分 类 *</pattern>
+    <template><srai>手 写 识 别 技 术 的 分 类</srai></template>
+</category>
+
+<category>
+    <pattern>* 手 写 识 别 技 术 * 分 类 *</pattern>
+    <template><srai>手 写 识 别 技 术 的 分 类</srai></template>
+</category>
+
+<category>
+    <pattern>手 写 识 别 技 术 * 几 种</pattern>
+    <template><srai>手 写 识 别 技 术 的 分 类</srai></template>
+</category>
+
+<category>
+    <pattern>* 手 写 识 别 技 术 * 几 种 *</pattern>
+    <template><srai>手 写 识 别 技 术 的 分 类</srai></template>
+</category>
+
+<category>
+    <pattern>手 写 识 别 技 术 的 分 类</pattern>
+    <template>手写识别技术大致可分为脱机识别和联机识别两种。</template>
+</category>
+
+<category>
+    <pattern>脱 机 识 别 *</pattern>
+    <template>脱机识别就是机器对于已经写好或印刷好的静态的语言文本图像的识别。</template>
+</category>
+
+<category>
+    <pattern>联 机 识 别 *</pattern>
+    <template>联机识别就是用笔在输入板上写。用户一边写，机器一边进行识别，可实时人机交互。系统通过记录文字图像抬笔、落笔、笔迹上各像素的空间位置及各笔段之间的时间关系等信息，对这些信息进行处理。在处理过程中，系统以一定的规则提取信息特征，再由识别模块将信息特征与识别库的特征进行比较，加以识别。（笔输入的识别特征库是基于许多人习惯的书写笔顺的统计特征建立的）。最后转化为计算机所使用的文字代码。</template>
+</category>
+
+<category>
+    <pattern>结 构 识 别 *</pattern>
+    <template>汉字的组成结构是由笔划(点、横、竖、撇、捺等)、偏旁、部首构成。结构识别就是通过把复杂的汉字模式分解为简单的子模式直至基本模式元素，对子模式的判定以及基于符号运算的匹配算法，实现对复杂模式的识别。它的优点是区分相似字的能力强，缺点是抗干扰能力差。</template>
+</category>
+
+<category>
+    <pattern>统 计 识 别 *</pattern>
+    <template>统计识别就是将汉字看为一个整体，其所有的特征是从整体上经过大量的统计而得到的，然后按照一定准则所确定的决策函数进行分类判决。统计识别的特点是抗干扰性强，缺点是细分能力较弱。</template>
+</category>
+
+<category>
+    <pattern>神 经 网 络 *</pattern>
+    <template>神经网络具有学习能力和快速并行实现的特点，因此可以通过神经网络分类器的推广能力准则和特征提取器的有效特征提取准则，对手写字符进行识别。</template>
+</category>
+
+<category>
+    <pattern>数 字 墨 水 技 术 *</pattern>
+    <template>数字墨水技术通过三阶贝塞尔曲线来描述笔输入的笔迹，存储方式使得数字墨水文件很小，从而可以更有效地进行存储。数字墨水的处理包括数字墨水的表示、压缩和显示，智能的墨水分析技术，墨水标记和注解技术，墨水的智能操作以及墨水存储和搜索等一系列有关技术。
+微软已实现了数字墨水技术对英文、德文、法文、韩文、日文、简体和繁体中文等语言的支持。
+Windows XP Tablet PC Edition拥有强大而简单的数字化墨水控件和API。
+</template>
+</category>
+
+<category>
+    <pattern>墨 水 解 析 技 术 *</pattern>
+    <template>墨水解析技术就是将笔输入的文字串解析成单字，从而将复杂的语句级手写识别化繁为简，分解成语句解析和单字识别两个部分。</template>
+</category>
+
+<category>
+    <pattern>* 脱 机 识 别</pattern>
+    <template>脱机识别就是机器对于已经写好或印刷好的静态的语言文本图像的识别。</template>
+</category>
+
+<category>
+    <pattern>* 联 机 识 别</pattern>
+    <template>联机识别就是用笔在输入板上写。用户一边写，机器一边进行识别，可实时人机交互。系统通过记录文字图像抬笔、落笔、笔迹上各像素的空间位置及各笔段之间的时间关系等信息，对这些信息进行处理。在处理过程中，系统以一定的规则提取信息特征，再由识别模块将信息特征与识别库的特征进行比较，加以识别。（笔输入的识别特征库是基于许多人习惯的书写笔顺的统计特征建立的）。最后转化为计算机所使用的文字代码。</template>
+</category>
+
+<category>
+    <pattern>* 结 构 识 别</pattern>
+    <template>汉字的组成结构是由笔划(点、横、竖、撇、捺等)、偏旁、部首构成。结构识别就是通过把复杂的汉字模式分解为简单的子模式直至基本模式元素，对子模式的判定以及基于符号运算的匹配算法，实现对复杂模式的识别。它的优点是区分相似字的能力强，缺点是抗干扰能力差。</template>
+</category>
+
+<category>
+    <pattern>* 统 计 识 别</pattern>
+    <template>统计识别就是将汉字看为一个整体，其所有的特征是从整体上经过大量的统计而得到的，然后按照一定准则所确定的决策函数进行分类判决。统计识别的特点是抗干扰性强，缺点是细分能力较弱。</template>
+</category>
+
+<category>
+    <pattern>* 神 经 网 络</pattern>
+    <template>神经网络具有学习能力和快速并行实现的特点，因此可以通过神经网络分类器的推广能力准则和特征提取器的有效特征提取准则，对手写字符进行识别。</template>
+</category>
+
+<category>
+    <pattern>* 数 字 墨 水 技 术</pattern>
+    <template>数字墨水技术通过三阶贝塞尔曲线来描述笔输入的笔迹，存储方式使得数字墨水文件很小，从而可以更有效地进行存储。数字墨水的处理包括数字墨水的表示、压缩和显示，智能的墨水分析技术，墨水标记和注解技术，墨水的智能操作以及墨水存储和搜索等一系列有关技术。
+微软已实现了数字墨水技术对英文、德文、法文、韩文、日文、简体和繁体中文等语言的支持。
+Windows XP Tablet PC Edition拥有强大而简单的数字化墨水控件和API。
+</template>
+</category>
+
+<category>
+    <pattern>* 墨 水 解 析 技 术</pattern>
+    <template>墨水解析技术就是将笔输入的文字串解析成单字，从而将复杂的语句级手写识别化繁为简，分解成语句解析和单字识别两个部分。</template>
+</category>
+
+<category>
+    <pattern>* 脱 机 识 别 *</pattern>
+    <template>脱机识别就是机器对于已经写好或印刷好的静态的语言文本图像的识别。</template>
+</category>
+
+<category>
+    <pattern>* 联 机 识 别 *</pattern>
+    <template>联机识别就是用笔在输入板上写。用户一边写，机器一边进行识别，可实时人机交互。系统通过记录文字图像抬笔、落笔、笔迹上各像素的空间位置及各笔段之间的时间关系等信息，对这些信息进行处理。在处理过程中，系统以一定的规则提取信息特征，再由识别模块将信息特征与识别库的特征进行比较，加以识别。（笔输入的识别特征库是基于许多人习惯的书写笔顺的统计特征建立的）。最后转化为计算机所使用的文字代码。</template>
+</category>
+
+<category>
+    <pattern>* 结 构 识 别 *</pattern>
+    <template>汉字的组成结构是由笔划(点、横、竖、撇、捺等)、偏旁、部首构成。结构识别就是通过把复杂的汉字模式分解为简单的子模式直至基本模式元素，对子模式的判定以及基于符号运算的匹配算法，实现对复杂模式的识别。它的优点是区分相似字的能力强，缺点是抗干扰能力差。</template>
+</category>
+
+<category>
+    <pattern>* 统 计 识 别 *</pattern>
+    <template>统计识别就是将汉字看为一个整体，其所有的特征是从整体上经过大量的统计而得到的，然后按照一定准则所确定的决策函数进行分类判决。统计识别的特点是抗干扰性强，缺点是细分能力较弱。</template>
+</category>
+
+<category>
+    <pattern>* 神 经 网 络 *</pattern>
+    <template>神经网络具有学习能力和快速并行实现的特点，因此可以通过神经网络分类器的推广能力准则和特征提取器的有效特征提取准则，对手写字符进行识别。</template>
+</category>
+
+<category>
+    <pattern>* 数 字 墨 水 技 术 *</pattern>
+    <template>数字墨水技术通过三阶贝塞尔曲线来描述笔输入的笔迹，存储方式使得数字墨水文件很小，从而可以更有效地进行存储。数字墨水的处理包括数字墨水的表示、压缩和显示，智能的墨水分析技术，墨水标记和注解技术，墨水的智能操作以及墨水存储和搜索等一系列有关技术。
+微软已实现了数字墨水技术对英文、德文、法文、韩文、日文、简体和繁体中文等语言的支持。
+Windows XP Tablet PC Edition拥有强大而简单的数字化墨水控件和API。
+</template>
+</category>
+
+<category>
+    <pattern>* 墨 水 解 析 技 术 *</pattern>
+    <template>墨水解析技术就是将笔输入的文字串解析成单字，从而将复杂的语句级手写识别化繁为简，分解成语句解析和单字识别两个部分。</template>
+</category>
+
+<category>
+    <pattern>脱 机 识 别 * 困 难 *</pattern>
+    <template>1.脱机手写识别得到的描述则是点阵图像，要得到笔段的点阵通常需要细化运算。	细化会损失一些信息，并且不可能得到时间顺序信息。
+2.脱机识别中，笔画与笔画之间经常粘连，很难拆分，而且笔段经过与另一笔段交叉分成两段后，也难以分清是否应该连起来。
+</template>
+</category>
+
+<category>
+    <pattern>* 脱 机 识 别 * 困 难 *</pattern>
+    <template>1.脱机手写识别得到的描述则是点阵图像，要得到笔段的点阵通常需要细化运算。	细化会损失一些信息，并且不可能得到时间顺序信息。
+2.脱机识别中，笔画与笔画之间经常粘连，很难拆分，而且笔段经过与另一笔段交叉分成两段后，也难以分清是否应该连起来。
+</template>
+</category>
+
+<category>
+    <pattern>多 点 触 控 技 术 *</pattern>
+    <template>多点触控技术指借助光学和材料学技术，构建能同时检测多个触点的触控平台，使得用户能够运用多个手指同时操作实现基于手势的交互，甚至可以让多个用户同时操作而实现基于协同手势的交互。多点触控技术由硬件和软件两部分组成。</template>
+</category>
+
+<category>
+    <pattern>多 点 触 控 软 件 技 术 *</pattern>
+    <template>多点触控软件技术即触点检测和定位、手指触点跟踪、触摸手势识别。</template>
+</category>
+
+<category>
+    <pattern>触 点 检 测 和 定 位 *</pattern>
+    <template>触点检测和定位包括图像预处理、手指触点分割、触点定位。</template>
+</category>
+
+<category>
+    <pattern>图 像 预 处 理 *</pattern>
+    <template>图像预处理过程包括灰度变换、平滑去噪、去除背景、图像分割等。</template>
+</category>
+
+<category>
+    <pattern>触 点 定 位 *</pattern>
+    <template>触点定位是对所有分割后的触点区域提取出其外轮廓，并对轮廓图进行筛选，把面积小于一定大小和外形不是凸包的触点轮廓去掉，保留真正的触点目标；基于触点轮廓计算手指触摸点的信息，如重心坐标等，完成触点定位。</template>
+</category>
+
+<category>
+    <pattern>手 指 触 点 跟 踪 *</pattern>
+    <template>手指触点跟踪即多点触控系统检测和定位出多个触点后，需要对每个触点进行跟踪，记录每个触点的轨迹信息，再基于轨迹进行动态手势识别，才能实现基于手势的自由交互。
+触点跟踪方法有Meanshift 算法、Kalman滤波、Kuhn-Munkres算法及CamShift算法等。
+</template>
+</category>
+
+<category>
+    <pattern>触 摸 手 势 识 别 *</pattern>
+    <template>多点触控交互桌面上使用的多为单手多指手势，或双手对称手势等。单手多指手势和双手对称手势识别，是在触点检测与稳定跟踪的基础上，通过标记、分析触点轨迹，识别手势含义。</template>
+</category>
+
+<category>
+    <pattern>* 多 点 触 控 技 术</pattern>
+    <template>多点触控技术指借助光学和材料学技术，构建能同时检测多个触点的触控平台，使得用户能够运用多个手指同时操作实现基于手势的交互，甚至可以让多个用户同时操作而实现基于协同手势的交互。多点触控技术由硬件和软件两部分组成。</template>
+</category>
+
+<category>
+    <pattern>* 多 点 触 控 软 件 技 术</pattern>
+    <template>多点触控软件技术即触点检测和定位、手指触点跟踪、触摸手势识别。</template>
+</category>
+
+<category>
+    <pattern>* 触 点 检 测 和 定 位</pattern>
+    <template>触点检测和定位包括图像预处理、手指触点分割、触点定位。</template>
+</category>
+
+<category>
+    <pattern>* 图 像 预 处 理</pattern>
+    <template>图像预处理过程包括灰度变换、平滑去噪、去除背景、图像分割等。</template>
+</category>
+
+<category>
+    <pattern>* 触 点 定 位</pattern>
+    <template>触点定位是对所有分割后的触点区域提取出其外轮廓，并对轮廓图进行筛选，把面积小于一定大小和外形不是凸包的触点轮廓去掉，保留真正的触点目标；基于触点轮廓计算手指触摸点的信息，如重心坐标等，完成触点定位。</template>
+</category>
+
+<category>
+    <pattern>* 手 指 触 点 跟 踪</pattern>
+    <template>手指触点跟踪即多点触控系统检测和定位出多个触点后，需要对每个触点进行跟踪，记录每个触点的轨迹信息，再基于轨迹进行动态手势识别，才能实现基于手势的自由交互。
+触点跟踪方法有Meanshift 算法、Kalman滤波、Kuhn-Munkres算法及CamShift算法等。
+</template>
+</category>
+
+<category>
+    <pattern>* 触 摸 手 势 识 别</pattern>
+    <template>多点触控交互桌面上使用的多为单手多指手势，或双手对称手势等。单手多指手势和双手对称手势识别，是在触点检测与稳定跟踪的基础上，通过标记、分析触点轨迹，识别手势含义。</template>
+</category>
+
+<category>
+    <pattern>* 多 点 触 控 技 术 *</pattern>
+    <template>多点触控技术指借助光学和材料学技术，构建能同时检测多个触点的触控平台，使得用户能够运用多个手指同时操作实现基于手势的交互，甚至可以让多个用户同时操作而实现基于协同手势的交互。多点触控技术由硬件和软件两部分组成。</template>
+</category>
+
+<category>
+    <pattern>* 多 点 触 控 软 件 技 术 *</pattern>
+    <template>多点触控软件技术即触点检测和定位、手指触点跟踪、触摸手势识别。</template>
+</category>
+
+<category>
+    <pattern>* 触 点 检 测 和 定 位 *</pattern>
+    <template>触点检测和定位包括图像预处理、手指触点分割、触点定位。</template>
+</category>
+
+<category>
+    <pattern>* 图 像 预 处 理 *</pattern>
+    <template>图像预处理过程包括灰度变换、平滑去噪、去除背景、图像分割等。</template>
+</category>
+
+<category>
+    <pattern>* 触 点 定 位 *</pattern>
+    <template>触点定位是对所有分割后的触点区域提取出其外轮廓，并对轮廓图进行筛选，把面积小于一定大小和外形不是凸包的触点轮廓去掉，保留真正的触点目标；基于触点轮廓计算手指触摸点的信息，如重心坐标等，完成触点定位。</template>
+</category>
+
+<category>
+    <pattern>* 手 指 触 点 跟 踪 *</pattern>
+    <template>手指触点跟踪即多点触控系统检测和定位出多个触点后，需要对每个触点进行跟踪，记录每个触点的轨迹信息，再基于轨迹进行动态手势识别，才能实现基于手势的自由交互。
+触点跟踪方法有Meanshift 算法、Kalman滤波、Kuhn-Munkres算法及CamShift算法等。
+</template>
+</category>
+
+<category>
+    <pattern>* 触 摸 手 势 识 别 *</pattern>
+    <template>多点触控交互桌面上使用的多为单手多指手势，或双手对称手势等。单手多指手势和双手对称手势识别，是在触点检测与稳定跟踪的基础上，通过标记、分析触点轨迹，识别手势含义。</template>
+</category>
+
+<category>
+    <pattern>目 标 的 实 时 截 取 *</pattern>
+    <template>目标的实时截取指在人以复杂的背景条件下从图像流中截取出目标来，这是机器视觉主要研究的课题之一。</template>
+</category>
+
+<category>
+    <pattern>手 势 识 别 *</pattern>
+    <template>手势识别指根据人手的姿态以及变化过程来解释其高层次的含义，提取出具有几何不变性的特征是其关键技术。
+手势识别按照手势输入设备可以分为两类：以数据手套为输入设备的手势识别系统、以摄像机为输入设备的手势识别系统。
+</template>
+</category>
+
+<category>
+    <pattern>以 数 据 手 套 为 输 入 设 备 的 手 势 识 别 系 统 *</pattern>
+   <template>数据手套反馈各关节的数据，并经一个位置跟踪器返回人手所在的三维坐标，从而来测量手势在三维空间中的位置信息和手指等关节的运动信息。</template>
+</category>
+
+<category>
+    <pattern>以 摄 像 机 为 输 入 设 备 的 手 势 识 别 系 统 *</pattern>
+    <template>它的主要问题是手势分割、特征提取和选择以及手势识别</template>
+</category>
+
+<category>
+    <pattern>手 势 *</pattern>
+    <template>手势具有生动、形象和直观的特点，具有很强的视觉效果，是一种自然的人机交互模式。根据不同的应用目的，手势可以分为：控制手势、 对话手势、通信手势和操作手势。
+手势特点：1.手是弹性物体，故同一种手势之间差别很大。
+2.	由于人识别手势关键是识别手指特征，故手掌特征是冗余信息。
+3.	手的位置是在三维空间，而计算机获取的图像是三维向二维的投影，因此投影方向很关键。
+4.	由于手的表面是非光滑的，因此易产生阴影。
+</template>
+</category>
+
+<category>
+    <pattern>手 势 分 割 方 法 *</pattern>
+    <template>基于直方图的分割（即阈值法）、基于局部区域信息的分割、基于颜色等物理特征的分割。</template>
+</category>
+
+<category>
+    <pattern>特 征 提 取 和 选 择 *</pattern>
+    <template>常用的手势特征有：轮廓、边缘、图像矩、图像特征向量 以及 区域直方图特征等。</template>
+</category>
+
+<category>
+    <pattern>基 于 摄 像 机 的 手 势 识 别 技 术 *</pattern>
+    <template>具体有模板匹配技术、统计分析技术、神经网络技术。</template>
+</category>
+
+<category>
+    <pattern>模 板 匹 配 技 术 *</pattern>
+    <template>模板匹配技术就是将待识别手势的特征参数与预先存储的模板特征参数进行匹配，通过测量两者之间的相似度来完成识别任务。</template>
+</category>
+
+<category>
+    <pattern>统 计 分 析 技 术 *</pattern>
+    <template>统计分析技术就是通过统计样本特征向量来确定分类器的基于概率统计理论的分类方法。在模式识别中一般采用贝叶斯极大似然理论确定分类函数。
+    它的缺点是要求人们从原始数据中提取特定的特征向量，而不能直接对原始数据进行识别。</template>
+</category>
+
+<category>
+    <pattern>神 经 网 络 技 术 *</pattern>
+    <template>神经网络技术就是先对待识别图像进行特征提取（亦可采用神经网络），然后用所获得的特征来训练神经网络，进而实现手势识别。该技术具有自组织和自学习能力，具有分布性特点，能有效地抗噪声和处理不完整模式以及具有模式推广能力。</template>
+</category>
+
+<category>
+    <pattern>* 目 标 的 实 时 截 取</pattern>
+    <template>目标的实时截取指在人以复杂的背景条件下从图像流中截取出目标来，这是机器视觉主要研究的课题之一。</template>
+</category>
+
+<category>
+    <pattern>* 手 势 识 别</pattern>
+    <template>手势识别指根据人手的姿态以及变化过程来解释其高层次的含义，提取出具有几何不变性的特征是其关键技术。
+手势识别按照手势输入设备可以分为两类：以数据手套为输入设备的手势识别系统、以摄像机为输入设备的手势识别系统。
+</template>
+</category>
+
+<category>
+    <pattern>* 以 数 据 手 套 为 输 入 设 备 的 手 势 识 别 系 统</pattern>
+   <template>数据手套反馈各关节的数据，并经一个位置跟踪器返回人手所在的三维坐标，从而来测量手势在三维空间中的位置信息和手指等关节的运动信息。</template>
+</category>
+
+<category>
+    <pattern>* 以 摄 像 机 为 输 入 设 备 的 手 势 识 别 系 统</pattern>
+    <template>它的主要问题是手势分割、特征提取和选择以及手势识别</template>
+</category>
+
+<category>
+    <pattern>* 手 势</pattern>
+    <template>手势具有生动、形象和直观的特点，具有很强的视觉效果，是一种自然的人机交互模式。根据不同的应用目的，手势可以分为：控制手势、 对话手势、通信手势和操作手势。
+手势特点：1.手是弹性物体，故同一种手势之间差别很大。
+2.	由于人识别手势关键是识别手指特征，故手掌特征是冗余信息。
+3.	手的位置是在三维空间，而计算机获取的图像是三维向二维的投影，因此投影方向很关键。
+4.	由于手的表面是非光滑的，因此易产生阴影。
+</template>
+</category>
+
+<category>
+    <pattern>* 手 势 分 割 方 法</pattern>
+    <template>基于直方图的分割（即阈值法）、基于局部区域信息的分割、基于颜色等物理特征的分割。</template>
+</category>
+
+<category>
+    <pattern>* 特 征 提 取 和 选 择</pattern>
+    <template>常用的手势特征有：轮廓、边缘、图像矩、图像特征向量 以及 区域直方图特征等。</template>
+</category>
+
+<category>
+    <pattern>* 基 于 摄 像 机 的 手 势 识 别 技 术</pattern>
+    <template>具体有模板匹配技术、统计分析技术、神经网络技术。</template>
+</category>
+
+<category>
+    <pattern>* 模 板 匹 配 技 术</pattern>
+    <template>模板匹配技术就是将待识别手势的特征参数与预先存储的模板特征参数进行匹配，通过测量两者之间的相似度来完成识别任务。</template>
+</category>
+
+<category>
+    <pattern>* 统 计 分 析 技 术</pattern>
+    <template>统计分析技术就是通过统计样本特征向量来确定分类器的基于概率统计理论的分类方法。在模式识别中一般采用贝叶斯极大似然理论确定分类函数。
+    它的缺点是要求人们从原始数据中提取特定的特征向量，而不能直接对原始数据进行识别。</template>
+</category>
+
+<category>
+    <pattern>* 神 经 网 络 技 术</pattern>
+    <template>神经网络技术就是先对待识别图像进行特征提取（亦可采用神经网络），然后用所获得的特征来训练神经网络，进而实现手势识别。该技术具有自组织和自学习能力，具有分布性特点，能有效地抗噪声和处理不完整模式以及具有模式推广能力。</template>
+</category>
+
+<category>
+    <pattern>* 目 标 的 实 时 截 取 *</pattern>
+    <template>目标的实时截取指在人以复杂的背景条件下从图像流中截取出目标来，这是机器视觉主要研究的课题之一。</template>
+</category>
+
+<category>
+    <pattern>* 手 势 识 别 *</pattern>
+    <template>手势识别指根据人手的姿态以及变化过程来解释其高层次的含义，提取出具有几何不变性的特征是其关键技术。
+手势识别按照手势输入设备可以分为两类：以数据手套为输入设备的手势识别系统、以摄像机为输入设备的手势识别系统。
+</template>
+</category>
+
+<category>
+    <pattern>* 以 数 据 手 套 为 输 入 设 备 的 手 势 识 别 系 统 *</pattern>
+   <template>数据手套反馈各关节的数据，并经一个位置跟踪器返回人手所在的三维坐标，从而来测量手势在三维空间中的位置信息和手指等关节的运动信息。</template>
+</category>
+
+<category>
+    <pattern>* 以 摄 像 机 为 输 入 设 备 的 手 势 识 别 系 统 *</pattern>
+    <template>它的主要问题是手势分割、特征提取和选择以及手势识别</template>
+</category>
+
+<category>
+    <pattern>* 手 势 *</pattern>
+    <template>手势具有生动、形象和直观的特点，具有很强的视觉效果，是一种自然的人机交互模式。根据不同的应用目的，手势可以分为：控制手势、 对话手势、通信手势和操作手势。
+手势特点：1.手是弹性物体，故同一种手势之间差别很大。
+2.	由于人识别手势关键是识别手指特征，故手掌特征是冗余信息。
+3.	手的位置是在三维空间，而计算机获取的图像是三维向二维的投影，因此投影方向很关键。
+4.	由于手的表面是非光滑的，因此易产生阴影。
+</template>
+</category>
+
+<category>
+    <pattern>* 手 势 分 割 方 法 *</pattern>
+    <template>基于直方图的分割（即阈值法）、基于局部区域信息的分割、基于颜色等物理特征的分割。</template>
+</category>
+
+<category>
+    <pattern>* 特 征 提 取 和 选 择 *</pattern>
+    <template>常用的手势特征有：轮廓、边缘、图像矩、图像特征向量 以及 区域直方图特征等。</template>
+</category>
+
+<category>
+    <pattern>* 基 于 摄 像 机 的 手 势 识 别 技 术 *</pattern>
+    <template>具体有模板匹配技术、统计分析技术、神经网络技术。</template>
+</category>
+
+<category>
+    <pattern>* 模 板 匹 配 技 术 *</pattern>
+    <template>模板匹配技术就是将待识别手势的特征参数与预先存储的模板特征参数进行匹配，通过测量两者之间的相似度来完成识别任务。</template>
+</category>
+
+<category>
+    <pattern>* 统 计 分 析 技 术 *</pattern>
+    <template>统计分析技术就是通过统计样本特征向量来确定分类器的基于概率统计理论的分类方法。在模式识别中一般采用贝叶斯极大似然理论确定分类函数。
+    它的缺点是要求人们从原始数据中提取特定的特征向量，而不能直接对原始数据进行识别。</template>
+</category>
+
+<category>
+    <pattern>* 神 经 网 络 技 术 *</pattern>
+    <template>神经网络技术就是先对待识别图像进行特征提取（亦可采用神经网络），然后用所获得的特征来训练神经网络，进而实现手势识别。该技术具有自组织和自学习能力，具有分布性特点，能有效地抗噪声和处理不完整模式以及具有模式推广能力。</template>
+</category>
+
+<category>
+    <pattern>表 情 识 别 过 程 *</pattern>
+    <template>表情识别过程包括人脸图像的获取与预处理、表情特征提取、表情分类。</template>
+</category>
+
+<category>
+    <pattern>人 脸 面 部 表 情 识 别 * 方 法 *</pattern>
+    <template>人脸面部表情识别特征方法包括灰度特征、运动特征、频率特征。</template>
+</category>
+
+<category>
+    <pattern>灰 度 特 征 *</pattern>
+    <template>灰度特征即从表情图像的灰度值上提取的，利用不同表情用不同灰度值来得到识别的依据。</template>
+</category>
+
+<category>
+    <pattern>运 动 特 征 *</pattern>
+    <template>运动特征即利用不同表情情况下人脸的主要表情点的运动信息来进行识别。</template>
+</category>
+
+<category>
+    <pattern>频 率 特 征 *</pattern>
+    <template>频率特征即利用表情图像在不同的频率分解下的差别进行识别，速度快是其显著特点。</template>
+</category>
+
+<category>
+    <pattern>特 征 识 别 方 法 *</pattern>
+    <template>有整体/局部识别法、形变/运动提取法、几何/容貌特征法三种。</template>
+</category>
+
+<category>
+    <pattern>特 征 识 别 * 方 法 *</pattern>
+    <template>包括整体/局部识别法、形变/运动提取法、几何/容貌特征法。</template>
+</category>
+
+<category>
+    <pattern>整 体 * 局 部 识 别 法 *</pattern>
+    <template>整体识别法就是无论从脸部的变形出发还是从脸部的运动出发，都是将表情人脸作为一个整体来分析，找出各种表情下的图像差别；局部识别法就是将人脸的各个部位在识别时分开，也就是说各个部位的重要性是不一样。</template>
+</category>
+
+<category>
+    <pattern>形 变 * 运 动 提 取 法 *</pattern>
+    <template>形变法根据人脸在表达各种表情时各个部位的变形情况来识别的；运动法根据人脸在表达各种特定的表情时一些特定的特征部位都会作相应运动这一原理来识别的。</template>
+</category>
+
+<category>
+    <pattern>几 何 * 容 貌 特 征 法 *</pattern>
+    <template>几何特征法根据人的面部的各个部分的形状和位置(包括嘴、眼睛、眉毛、鼻子) 来提取特征矢量，这个特征矢量来代表人脸的几何特征，根据这个特征矢量的不同就可以识别不同的表情；在容貌特征法中，主要是将整体人脸或者是局部人脸通过图像的滤波，以得到特征矢量。</template>
+</category>
+
+<category>
+    <pattern>* 表 情 识 别 过 程</pattern>
+    <template>表情识别过程包括人脸图像的获取与预处理、表情特征提取、表情分类。</template>
+</category>
+
+<category>
+    <pattern>* 人 脸 面 部 表 情 识 别 * 方 法</pattern>
+    <template>人脸面部表情识别特征方法包括灰度特征、运动特征、频率特征。</template>
+</category>
+
+<category>
+    <pattern>* 灰 度 特 征</pattern>
+    <template>灰度特征即从表情图像的灰度值上提取的，利用不同表情用不同灰度值来得到识别的依据。</template>
+</category>
+
+<category>
+    <pattern>* 运 动 特 征</pattern>
+    <template>运动特征即利用不同表情情况下人脸的主要表情点的运动信息来进行识别。</template>
+</category>
+
+<category>
+    <pattern>* 频 率 特 征</pattern>
+    <template>频率特征即利用表情图像在不同的频率分解下的差别进行识别，速度快是其显著特点。</template>
+</category>
+
+<category>
+    <pattern>* 特 征 识 别 方 法</pattern>
+    <template>有整体/局部识别法、形变/运动提取法、几何/容貌特征法三种。</template>
+</category>
+
+<category>
+    <pattern>* 特 征 识 别 * 方 法</pattern>
+    <template>包括整体/局部识别法、形变/运动提取法、几何/容貌特征法。</template>
+</category>
+
+<category>
+    <pattern>* 整 体 * 局 部 识 别 法</pattern>
+    <template>整体识别法就是无论从脸部的变形出发还是从脸部的运动出发，都是将表情人脸作为一个整体来分析，找出各种表情下的图像差别；局部识别法就是将人脸的各个部位在识别时分开，也就是说各个部位的重要性是不一样。</template>
+</category>
+
+<category>
+    <pattern>* 形 变 * 运 动 提 取 法</pattern>
+    <template>形变法根据人脸在表达各种表情时各个部位的变形情况来识别的；运动法根据人脸在表达各种特定的表情时一些特定的特征部位都会作相应运动这一原理来识别的。</template>
+</category>
+
+<category>
+    <pattern>* 几 何 * 容 貌 特 征 法</pattern>
+    <template>几何特征法根据人的面部的各个部分的形状和位置(包括嘴、眼睛、眉毛、鼻子) 来提取特征矢量，这个特征矢量来代表人脸的几何特征，根据这个特征矢量的不同就可以识别不同的表情；在容貌特征法中，主要是将整体人脸或者是局部人脸通过图像的滤波，以得到特征矢量。</template>
+</category>
+
+<category>
+    <pattern>* 表 情 识 别 过 程 *</pattern>
+    <template>表情识别过程包括人脸图像的获取与预处理、表情特征提取、表情分类。</template>
+</category>
+
+<category>
+    <pattern>* 人 脸 面 部 表 情 识 别 * 方 法 *</pattern>
+    <template>人脸面部表情识别特征方法包括灰度特征、运动特征、频率特征。</template>
+</category>
+
+<category>
+    <pattern>* 灰 度 特 征 *</pattern>
+    <template>灰度特征即从表情图像的灰度值上提取的，利用不同表情用不同灰度值来得到识别的依据。</template>
+</category>
+
+<category>
+    <pattern>* 运 动 特 征 *</pattern>
+    <template>运动特征即利用不同表情情况下人脸的主要表情点的运动信息来进行识别。</template>
+</category>
+
+<category>
+    <pattern>* 频 率 特 征 *</pattern>
+    <template>频率特征即利用表情图像在不同的频率分解下的差别进行识别，速度快是其显著特点。</template>
+</category>
+
+<category>
+    <pattern>* 特 征 识 别 方 法 *</pattern>
+    <template>有整体/局部识别法、形变/运动提取法、几何/容貌特征法三种。</template>
+</category>
+
+<category>
+    <pattern>* 特 征 识 别 * 方 法 *</pattern>
+    <template>包括整体/局部识别法、形变/运动提取法、几何/容貌特征法。</template>
+</category>
+
+<category>
+    <pattern>* 整 体 * 局 部 识 别 法 *</pattern>
+    <template>整体识别法就是无论从脸部的变形出发还是从脸部的运动出发，都是将表情人脸作为一个整体来分析，找出各种表情下的图像差别；局部识别法就是将人脸的各个部位在识别时分开，也就是说各个部位的重要性是不一样。</template>
+</category>
+
+<category>
+    <pattern>* 形 变 * 运 动 提 取 法 *</pattern>
+    <template>形变法根据人脸在表达各种表情时各个部位的变形情况来识别的；运动法根据人脸在表达各种特定的表情时一些特定的特征部位都会作相应运动这一原理来识别的。</template>
+</category>
+
+<category>
+    <pattern>* 几 何 * 容 貌 特 征 法 *</pattern>
+    <template>几何特征法根据人的面部的各个部分的形状和位置(包括嘴、眼睛、眉毛、鼻子) 来提取特征矢量，这个特征矢量来代表人脸的几何特征，根据这个特征矢量的不同就可以识别不同的表情；在容貌特征法中，主要是将整体人脸或者是局部人脸通过图像的滤波，以得到特征矢量。</template>
+</category>
+
+<category>
+    <pattern>眼 动 形 式 *</pattern>
+    <template>主要有三种形式：注视、跳动、平滑尾随跟踪。</template>
+</category>
+
+<category>
+    <pattern>注 视 *</pattern>
+    <template>表现为视线在被观察目标上的停留，这些停留一般至少持续100ms到200ms。</template>
+</category>
+
+<category>
+    <pattern>跳 动 *</pattern>
+    <template>注视点间的飞速跳跃，是一种联合眼动（即双眼同时移动），其视角为1到40度，持续时间为30到120ms，最高速度为400-600度每秒。</template>
+</category>
+
+<category>
+    <pattern>平 滑 尾 随 跟 踪 *</pattern>
+    <template>缓慢、联合追踪的眼动通常称为平滑尾随跟踪。平滑尾随追踪通常有一个缓慢移动的目标，在没有目标的情况下，一般不能执行。</template>
+</category>
+
+<category>
+    <pattern>视 线 跟 踪 * 参 数 *</pattern>
+    <template>视线跟踪技术中常用的主要参数包括注视次数、注视持续时间、注视点序列、第一次到达目标区的时间等。</template>
+</category>
+
+<category>
+    <pattern>视 线 跟 踪 * 原 理 *</pattern>
+    <template>视线跟踪基本原理是：由光源发出的光线经红外滤光镜过滤后只有红外线可以通过；红外线经过半反射镜后，部分到达反射镜，经反射镜发射到达眼球；眼球对红外线的反射光经同一反射镜到达能锁定眼睛的特殊的瞳孔摄像机，通过连续的记录从人的眼角膜和瞳孔反射的红外线，然后利用图像处理技术，得到眼球的完整图像；再经软件处理后获得视线变化的数据，达到视线跟踪的目的。</template>
+</category>
+
+<category>
+    <pattern>视 线 跟 踪 技 术 * 媒 介 *</pattern>
+    <template>目前视线跟踪技术按其所借助的媒介分为以硬件为基础、以软件为基础。</template>
+</category>
+
+<category>
+    <pattern>眼 动 测 量 方 法 *</pattern>
+    <template>有瞳孔－角膜反射向量法、眼电图法、双普金野象法、接触镜法。</template>
+</category>
+
+<category>
+    <pattern>瞳 孔 角 膜 反 射 向 量 法 *</pattern>
+    <template>瞳孔－角膜反射向量法是通过固定眼摄像机获取眼球图像，利用亮瞳孔和暗瞳孔的原理，提取出眼球图像内的瞳孔，利用角膜反射法校正眼摄像机与眼球的相对位置，把角膜反射点数据作为眼摄像机和眼球的相对位置的基点，瞳孔中心位置坐标就表示视线的位置。</template>
+</category>
+
+<category>
+    <pattern>眼 电 图 法 *</pattern>
+    <template>眼球在正常情况下由于视网膜代谢水平较高，因此眼球后部的视网膜与前部的角膜之间存在着一个数十毫伏的静止电压，角膜区为正，视网膜区为负。当眼球转动时，眼球的周围的电势也随之发生变化；将两对氯化银皮肤表面电极分别置于眼睛左右、上下两侧，就能引起眼球变化方向上的微弱电信号，经放大后得到眼球运动的位置信息。</template>
+</category>
+
+<category>
+    <pattern>双 普 金 野 象 法 *</pattern>
+    <template>普金野图像是由眼睛的若干光学界面反射所形成的图像。角膜所反射出来的图像是第一普金野图像；从角膜后表面反射出来的图像微弱些，称为第二普金野图像；从晶状体前表面反射出来的图像称为第三普金野图像；由晶状体后表面反射出来的图像称为第四普金野图像。通过对两个普金野图像的测量可以确定眼注视位置。</template>
+</category>
+
+<category>
+    <pattern>接 触 镜 法 *</pattern>
+    <template>接触镜法是将一块反射镜固定在角膜或巩膜上，眼球运动时将固定光束反射到不同方向，从而获得眼动信号。</template>
+</category>
+
+<category>
+    <pattern>* 眼 动 形 式</pattern>
+    <template>主要有三种形式：注视、跳动、平滑尾随跟踪。</template>
+</category>
+
+<category>
+    <pattern>* 注 视</pattern>
+    <template>表现为视线在被观察目标上的停留，这些停留一般至少持续100ms到200ms。</template>
+</category>
+
+<category>
+    <pattern>* 跳 动</pattern>
+    <template>注视点间的飞速跳跃，是一种联合眼动（即双眼同时移动），其视角为1到40度，持续时间为30到120ms，最高速度为400-600度每秒。</template>
+</category>
+
+<category>
+    <pattern>* 平 滑 尾 随 跟 踪</pattern>
+    <template>缓慢、联合追踪的眼动通常称为平滑尾随跟踪。平滑尾随追踪通常有一个缓慢移动的目标，在没有目标的情况下，一般不能执行。</template>
+</category>
+
+<category>
+    <pattern>* 视 线 跟 踪 * 参 数</pattern>
+    <template>视线跟踪技术中常用的主要参数包括注视次数、注视持续时间、注视点序列、第一次到达目标区的时间等。</template>
+</category>
+
+<category>
+    <pattern>* 视 线 跟 踪 * 原 理</pattern>
+    <template>视线跟踪基本原理是：由光源发出的光线经红外滤光镜过滤后只有红外线可以通过；红外线经过半反射镜后，部分到达反射镜，经反射镜发射到达眼球；眼球对红外线的反射光经同一反射镜到达能锁定眼睛的特殊的瞳孔摄像机，通过连续的记录从人的眼角膜和瞳孔反射的红外线，然后利用图像处理技术，得到眼球的完整图像；再经软件处理后获得视线变化的数据，达到视线跟踪的目的。</template>
+</category>
+
+<category>
+    <pattern>* 视 线 跟 踪 技 术 * 媒 介</pattern>
+    <template>目前视线跟踪技术按其所借助的媒介分为以硬件为基础、以软件为基础。</template>
+</category>
+
+<category>
+    <pattern>* 眼 动 测 量 方 法</pattern>
+    <template>有瞳孔－角膜反射向量法、眼电图法、双普金野象法、接触镜法。</template>
+</category>
+
+<category>
+    <pattern>* 瞳 孔 角 膜 反 射 向 量 法</pattern>
+    <template>瞳孔－角膜反射向量法是通过固定眼摄像机获取眼球图像，利用亮瞳孔和暗瞳孔的原理，提取出眼球图像内的瞳孔，利用角膜反射法校正眼摄像机与眼球的相对位置，把角膜反射点数据作为眼摄像机和眼球的相对位置的基点，瞳孔中心位置坐标就表示视线的位置。</template>
+</category>
+
+<category>
+    <pattern>* 眼 电 图 法</pattern>
+    <template>眼球在正常情况下由于视网膜代谢水平较高，因此眼球后部的视网膜与前部的角膜之间存在着一个数十毫伏的静止电压，角膜区为正，视网膜区为负。当眼球转动时，眼球的周围的电势也随之发生变化；将两对氯化银皮肤表面电极分别置于眼睛左右、上下两侧，就能引起眼球变化方向上的微弱电信号，经放大后得到眼球运动的位置信息。</template>
+</category>
+
+<category>
+    <pattern>* 双 普 金 野 象 法</pattern>
+    <template>普金野图像是由眼睛的若干光学界面反射所形成的图像。角膜所反射出来的图像是第一普金野图像；从角膜后表面反射出来的图像微弱些，称为第二普金野图像；从晶状体前表面反射出来的图像称为第三普金野图像；由晶状体后表面反射出来的图像称为第四普金野图像。通过对两个普金野图像的测量可以确定眼注视位置。</template>
+</category>
+
+<category>
+    <pattern>* 接 触 镜 法</pattern>
+    <template>接触镜法是将一块反射镜固定在角膜或巩膜上，眼球运动时将固定光束反射到不同方向，从而获得眼动信号。</template>
+</category>
+
+<category>
+    <pattern>* 眼 动 形 式 *</pattern>
+    <template>主要有三种形式：注视、跳动、平滑尾随跟踪。</template>
+</category>
+
+<category>
+    <pattern>* 注 视 *</pattern>
+    <template>表现为视线在被观察目标上的停留，这些停留一般至少持续100ms到200ms。</template>
+</category>
+
+<category>
+    <pattern>* 跳 动 *</pattern>
+    <template>注视点间的飞速跳跃，是一种联合眼动（即双眼同时移动），其视角为1到40度，持续时间为30到120ms，最高速度为400-600度每秒。</template>
+</category>
+
+<category>
+    <pattern>* 平 滑 尾 随 跟 踪 *</pattern>
+    <template>缓慢、联合追踪的眼动通常称为平滑尾随跟踪。平滑尾随追踪通常有一个缓慢移动的目标，在没有目标的情况下，一般不能执行。</template>
+</category>
+
+<category>
+    <pattern>* 视 线 跟 踪 * 参 数 *</pattern>
+    <template>视线跟踪技术中常用的主要参数包括注视次数、注视持续时间、注视点序列、第一次到达目标区的时间等。</template>
+</category>
+
+<category>
+    <pattern>* 视 线 跟 踪 * 原 理 *</pattern>
+    <template>视线跟踪基本原理是：由光源发出的光线经红外滤光镜过滤后只有红外线可以通过；红外线经过半反射镜后，部分到达反射镜，经反射镜发射到达眼球；眼球对红外线的反射光经同一反射镜到达能锁定眼睛的特殊的瞳孔摄像机，通过连续的记录从人的眼角膜和瞳孔反射的红外线，然后利用图像处理技术，得到眼球的完整图像；再经软件处理后获得视线变化的数据，达到视线跟踪的目的。</template>
+</category>
+
+<category>
+    <pattern>* 视 线 跟 踪 技 术 * 媒 介 *</pattern>
+    <template>目前视线跟踪技术按其所借助的媒介分为以硬件为基础、以软件为基础。</template>
+</category>
+
+<category>
+    <pattern>* 眼 动 测 量 方 法 *</pattern>
+    <template>有瞳孔－角膜反射向量法、眼电图法、双普金野象法、接触镜法。</template>
+</category>
+
+<category>
+    <pattern>* 瞳 孔 角 膜 反 射 向 量 法 *</pattern>
+    <template>瞳孔－角膜反射向量法是通过固定眼摄像机获取眼球图像，利用亮瞳孔和暗瞳孔的原理，提取出眼球图像内的瞳孔，利用角膜反射法校正眼摄像机与眼球的相对位置，把角膜反射点数据作为眼摄像机和眼球的相对位置的基点，瞳孔中心位置坐标就表示视线的位置。</template>
+</category>
+
+<category>
+    <pattern>* 眼 电 图 法 *</pattern>
+    <template>眼球在正常情况下由于视网膜代谢水平较高，因此眼球后部的视网膜与前部的角膜之间存在着一个数十毫伏的静止电压，角膜区为正，视网膜区为负。当眼球转动时，眼球的周围的电势也随之发生变化；将两对氯化银皮肤表面电极分别置于眼睛左右、上下两侧，就能引起眼球变化方向上的微弱电信号，经放大后得到眼球运动的位置信息。</template>
+</category>
+
+<category>
+    <pattern>* 双 普 金 野 象 法 *</pattern>
+    <template>普金野图像是由眼睛的若干光学界面反射所形成的图像。角膜所反射出来的图像是第一普金野图像；从角膜后表面反射出来的图像微弱些，称为第二普金野图像；从晶状体前表面反射出来的图像称为第三普金野图像；由晶状体后表面反射出来的图像称为第四普金野图像。通过对两个普金野图像的测量可以确定眼注视位置。</template>
+</category>
+
+<category>
+    <pattern>* 接 触 镜 法 *</pattern>
+    <template>接触镜法是将一块反射镜固定在角膜或巩膜上，眼球运动时将固定光束反射到不同方向，从而获得眼动信号。</template>
+</category>
+
+<category>
+    <pattern>基 本 感 知 *</pattern>
+    <template>包括视觉，听觉，嗅觉，味觉，触觉。</template>
+</category>
+
+<category>
+    <pattern>* 基 本 感 知</pattern>
+    <template>包括视觉，听觉，嗅觉，味觉，触觉。</template>
+</category>
+
+<category>
+    <pattern>* 基 本 感 知 *</pattern>
+    <template>包括视觉，听觉，嗅觉，味觉，触觉。</template>
+</category>
+
+<category>
+    <pattern>认 知 * 过 程 *</pattern>
+    <template>包括感知和识别，注意，记忆，学习，阅读，说话和聆听，解题、规划、推理和决策。</template>
+</category>
+
+<category>
+    <pattern>输 入 设 备 *</pattern>
+    <template>包括文本输入设备，图像输入设备，三维图形输入设备，指点输入设备等</template>
+</category>
+
+<category>
+    <pattern>输 出 设 备 *</pattern>
+    <template>包括显示器 ，声音的输出 ，数字纸等</template>
+</category>
+
+<category>
+    <pattern>人 机 交 互 技 术 *</pattern>
+    <template>包括基本交互技术，图形交互技术（二维、三维），语音交互技术，笔交互技术
+，多点触控交互技术，手势识别交互技术，表情识别交互技术，眼动跟踪交互技术。
+</template>
+</category>
+
+<category>
+    <pattern>用 户 界 面 *</pattern>
+    <template>包括命令行界面，图形界面，多通道用户界面。</template>
+</category>
+
+<category>
+    <pattern>图 形 用 户 界 面 * 思 想 *</pattern>
+    <template>图形用户界面的三个重要思想是桌面隐喻，所见即所得，直接操纵。</template>
+</category>
+
+<category>
+    <pattern>* 认 知 * 过 程</pattern>
+    <template>包括感知和识别，注意，记忆，学习，阅读，说话和聆听，解题、规划、推理和决策。</template>
+</category>
+
+<category>
+    <pattern>* 输 入 设 备</pattern>
+    <template>包括文本输入设备，图像输入设备，三维图形输入设备，指点输入设备等</template>
+</category>
+
+<category>
+    <pattern>* 输 出 设 备</pattern>
+    <template>包括显示器 ，声音的输出 ，数字纸等</template>
+</category>
+
+<category>
+    <pattern>* 人 机 交 互 技 术</pattern>
+    <template>包括基本交互技术，图形交互技术（二维、三维），语音交互技术，笔交互技术
+，多点触控交互技术，手势识别交互技术，表情识别交互技术，眼动跟踪交互技术。
+</template>
+</category>
+
+<category>
+    <pattern>* 用 户 界 面</pattern>
+    <template>包括命令行界面，图形界面，多通道用户界面。</template>
+</category>
+
+<category>
+    <pattern>* 图 形 用 户 界 面 * 思 想</pattern>
+    <template>图形用户界面的三个重要思想是桌面隐喻，所见即所得，直接操纵。</template>
+</category>
+
+<category>
+    <pattern>* 认 知 * 过 程 *</pattern>
+    <template>包括感知和识别，注意，记忆，学习，阅读，说话和聆听，解题、规划、推理和决策。</template>
+</category>
+
+<category>
+    <pattern>* 输 入 设 备 *</pattern>
+    <template>包括文本输入设备，图像输入设备，三维图形输入设备，指点输入设备等</template>
+</category>
+
+<category>
+    <pattern>* 输 出 设 备 *</pattern>
+    <template>包括显示器 ，声音的输出 ，数字纸等</template>
+</category>
+
+<category>
+    <pattern>* 人 机 交 互 技 术 *</pattern>
+    <template>包括基本交互技术，图形交互技术（二维、三维），语音交互技术，笔交互技术
+，多点触控交互技术，手势识别交互技术，表情识别交互技术，眼动跟踪交互技术。
+</template>
+</category>
+
+<category>
+    <pattern>* 用 户 界 面 *</pattern>
+    <template>包括命令行界面，图形界面，多通道用户界面。</template>
+</category>
+
+<category>
+    <pattern>* 图 形 用 户 界 面 * 思 想 *</pattern>
+    <template>图形用户界面的三个重要思想是桌面隐喻，所见即所得，直接操纵。</template>
+</category>
+
+</aiml>
